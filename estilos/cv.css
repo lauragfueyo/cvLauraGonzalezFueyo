@@ -1,0 +1,128 @@
+* {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 90%;
+}
+
+body {
+	background: #f2f2f2;
+	color: #464646;
+	font-family: 'Poppins', sans-serif;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+.list {
+	margin-bottom: 15px;
+}
+
+.list li {
+	background: transparent url(../imagenes/vineta.png) no-repeat 0 9px;
+	margin: 0 0 10px 15px;
+	padding-left: 10px;
+}
+
+.page {
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 25px rgba(0, 0, 0, .1);
+	box-sizing: border-box;
+	margin: 20px auto;
+	max-width: 960px;
+	padding: 40px;
+}
+
+#header {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.header_info {
+	flex: 0 0 70%;
+}
+
+.header_info_nombre {
+	color: #5262c9;
+	font-size: 2.6rem;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.header_info_linkedin {
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.header_info li {
+	border-bottom: 1px dashed #d7d7d7;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.header_info strong {
+	color: #5262c9;
+}
+
+.header_imagen {
+	border-radius: 100%;
+	box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+	flex: 0 0 200px;
+	outline: 2px solid #fff;
+	outline-offset: -4px;
+}
+
+.bloque {
+	margin-bottom: 40px;
+}
+
+.bloque_titulo {
+	color: #5262c9;
+	font-size: 2rem;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.bloque_educacion p,
+.bloque_experiencia_info {
+	display: flex;
+}
+
+.bloque_educacion_year,
+.bloque_experiencia_info_fecha {
+	flex: 0 0 20%;
+	font-size: .9rem;
+}
+
+.bloque_educacion_titulo,
+.bloque_experiencia_info_puesto {
+	border-left: 1px solid #d7d7d7;
+	padding-left: 20px;
+}
+
+.bloque_educacion_titulo em {
+	display: block;
+	font-size: .9rem;
+}
+
+.bloque_experiencia_info {
+	margin-bottom: 20px;
+}
+
+.bloque_experiencia_info_puesto h3 {
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+#footer {
+	margin: 20px 0;
+	text-align: center;
+}
